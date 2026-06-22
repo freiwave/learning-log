@@ -40,4 +40,36 @@ def vowel(word):
 - Maybe count how many times each vowel shows up separately
 
 
+## Week of 21st June 2026
 
+My project that i started 3 weeks ago is to make a lego ai inventry that scans and saves all lego pieces and then tells me what i can make from it.
+
+### What I learnt
+
+So far I have made the following code files: 
+
+opening_the_camera.py :  i learnt about cv2 that is computer vision, waitkey that tells us how long to wait for our frame, ord that converts what i wrote to ascii, and i learnt videocapture that tells the computer which camera to use
+
+create_a_folder.py: i learnt makedirs that creates a folder if it does not exist
+
+saving_an_image.py: i learnt about datetime gives the computer the time with %y%M%D%H%M%S%F that is year, month, day, minute, second, and microsecond
+
+resizing_an_image.py: i learnt about resize that resizes an image however you want, and image.shape that gets the shape of the image
+
+### What was confusing
+
+opening_the_camera.py: i got confused in what waitkey does.
+Solution: it waits for the amount of micro seconds you give.
+
+create_a_folder: i got confused in what makedirs  does
+solution: it creates a folder if it does not exist
+
+saving_an_image: i got confused in why we need frame 
+solution: we need frame because it gets the space the camera needs
+
+resizing_an_image: i got confused in how imwrite resizes an image
+solution: it gives the name to the resized image.
+
+### What's next
+
+make a code to identify a lego brick with color and name
